@@ -1,0 +1,30 @@
+
+.signature-blue {
+  color: #01B2EE;  
+}
+
+.bg-signature-blue {
+  background: #01B2EE;  
+}
+
+.bg-signature-blue:hover {
+  background: rgba(41, 191, 241); ;
+}
+
+.just-hover-blue:hover {
+  color: #01B2EE;  
+}
+
+.footer-info {
+  max-width: 1385px;
+  overflow: hidden;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+}
+
+.footer-floor {
+  height: 60px;
+  max-height: 60px;
+
+}

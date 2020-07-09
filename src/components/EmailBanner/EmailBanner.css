@@ -1,0 +1,11 @@
+.signature-blue {
+  color: #01B2EE;  
+}
+
+.bg-signature-blue {
+  background: #01B2EE;
+}
+
+.bg-signature-blue:hover {
+  background: rgba(41, 191, 241); ;
+}

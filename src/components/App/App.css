@@ -1,0 +1,14 @@
+body {
+  font-family: "Museo Sans 500";
+}
+
+.page {
+  margin: auto;
+  max-width: 1385px;
+}
+
+.App {
+  min-width: 70vh;
+  min-height: 100vh;
+  background: #F4F7FB;
+}

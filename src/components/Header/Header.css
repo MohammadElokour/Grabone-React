@@ -1,0 +1,12 @@
+.bg-color {
+  background: #01B2EE;  
+}
+
+.nav-bar {
+  display: flex;
+  max-width: 1385px;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
