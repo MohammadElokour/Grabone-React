@@ -1,9 +1,19 @@
 .card {
-  height: 440px;
   width: 400px;
+  height: 440px;
   display: flex;
   margin: auto;
   align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    align-items: center;
+  }
 }
   
 .text-blue {

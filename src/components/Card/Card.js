@@ -3,8 +3,8 @@ import "./Card.css";
 
 function Card({title, img, institution, area, boughtCount, price, infoText}) {
     return (
-      <div className="inline px-2">
-        <div className="rounded-none  overflow-hidden shadow-lg bg-white cursor-pointer card parent">
+      <div className="flex p-2 justify-center sm:inline md-inline lg:inline xl:inline">
+        <div className="rounded-none overflow-hidden shadow-lg bg-white cursor-pointer card parent">
             <img className="w-full h-64" src={img} alt="img-background"/>
             <div className="child">
               <p className="text-lg text-center text-white">{infoText}</p>

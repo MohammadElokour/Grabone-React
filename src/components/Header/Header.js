@@ -7,7 +7,7 @@ function Header() {
     <div>
     <header className="py-2 bg-color">
     <nav>
-      <div className="nav-bar ">
+      <div className="nav-bar px-2">
         <img className="cursor-pointer h-12" src={websiteLogo} alt="logo" />
       </div>
     </nav>

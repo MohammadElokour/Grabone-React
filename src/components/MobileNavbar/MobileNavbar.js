@@ -6,7 +6,7 @@ function MobileNavbar() {
     <div className="bg-white py-2 block sm:block md-hidden lg:hidden xl-hidden">
       <header>
       <nav>
-        <div className="flex justify-evenly">
+        <div className="flex justify-evenly sm:justify-evenly md:justify-evenly lg:justify-evenly xl:justify-evenly">
             <button>
               <svg className="w-5 h-5 inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                 <path fill="#808080" d="M8 20H3V10H0L10 0l10 10h-3v10h-5v-6H8v6z"/>

@@ -7,23 +7,23 @@ function Footer() {
   return (
     <div>
      <footer className="bg-white w-full">
-       <div className='footer-info grid sm:grid md:grid lg:flex xl:flex text-center lg:text-left justify-center lg:justify-between'>
+       <div className='px-5 footer-info block sm:block md:block lg:flex xl:flex text-left lg:text-left justify-left lg:justify-between'>
         {/* section 5 copy for mobile */}
         <div className="flex flex-col py-5 sm:flex md-hidden lg:hidden xl-hidden">
           <h4 className="text-gray-800 font-semibold pb-2">Newsletter Signup</h4>
           <p className="text-gray-700 py-1">Sign up for our daily emails and we'll send you all the best <br></br> deals, tailored for you.</p> 
-          <div className="flex inline w-full">
-          <div className="shadow-xl inline bg-white focus:outline-none focus:shadow-outline border border-gray-400 rounded-none w-11/12 leading-normal">
-            <svg className="w-10 h-12 inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#808080"><path class="heroicon-ui" d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6c0-1.1.9-2 2-2zm16 3.38V6H4v1.38l8 4 8-4zm0 2.24l-7.55 3.77a1 1 0 0 1-.9 0L4 9.62V18h16V9.62z"/></svg>
-              <input className="focus:outline-none px-2 w-10/12" placeholder="Enter Email Address"></input>
+          <div className="flex inline">
+            <div className="shadow-xl inline bg-white focus:outline-none focus:shadow-outline border border-gray-400 rounded-none w-5/12 lg:w-11/12 xl:w-11/12 leading-normal">
+              <svg className="w-10 h-10 inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#808080"><path class="heroicon-ui" d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6c0-1.1.9-2 2-2zm16 3.38V6H4v1.38l8 4 8-4zm0 2.24l-7.55 3.77a1 1 0 0 1-.9 0L4 9.62V18h16V9.62z"/></svg>
+              <input className="focus:outline-none px-2 w-7/12 lg:w-10/12 xl:w-10/12" placeholder="Enter Email Address"></input>
             </div>
-            <button className="text-white bg-signature-blue w-48 p-0 rounded-r-lg">Subscribe</button>
+            <button className="text-white bg-signature-blue w-32 lg:w-48 xl:w-48 p-0 rounded-r-lg">Subscribe</button>
           </div>
         </div>
         {/* section 1 */}
         <nav className="pt-6">
           <h4 className="text-gray-800 font-semibold">Follow us on</h4>
-          <div className="flex flex-row pb-2 justify-center">
+          <div className="flex flex-row pb-2 justify-start">
             <svg className="w-12 h-12 py-1 cursor-pointer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
               <path fill="#696969" d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"/>
             </svg>
@@ -38,8 +38,8 @@ function Footer() {
             </svg>
           </div>
           <h4 className="text-gray-800 font-semibold">Get app exclusive deals</h4>
-          <div className="flex justify-center">
-            <button className="flex inline bg-signature-blue w-48 lg:w-full py-3 mt-4 px-2 rounded-lg shadow-lg">
+          <div className="flex justify-start">
+            <button className="flex justify-center bg-signature-blue w-48 lg:w-full py-3 mt-4 px-2 rounded-lg shadow-lg">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                 <path fill="#fff" class="heroicon-ui" d="M6 2h12a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.1.9-2 2-2zm0 2v16h12V4H6zm6 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
               </svg>
@@ -60,13 +60,13 @@ function Footer() {
         </div>
 
         {/* section 3 */}
-        <div className="flex flex-col pt-4">
+        <div className="flex flex-col pt-6">
           <h4 className="text-gray-800 font-semibold pb-2">My Account</h4>
           <a className="text-gray-700 py-1 just-hover-blue" href="google.com" >My Account</a> 
           <a className="text-gray-700 py-1 just-hover-blue" href="google.com" >My Card</a> 
           <a className="text-gray-700 py-1 just-hover-blue" href="google.com" >My Coupons</a> 
           <a className="text-gray-700 py-1 just-hover-blue" href="google.com" >FAQ</a> 
-          <div className="mt-2 lg:py-6 xl:py-6"></div>
+          <div className="mt-2 lg:py-6"></div>
         </div>
 
         {/* section 4 */}
@@ -77,26 +77,30 @@ function Footer() {
           <div className="py-2 sm:py-2 md:py-2 lg:py-16 xl:py-16"></div>
         </div>
         {/* section 5 */}
-        <div className="hidden pt-4 sm:hidden md:hidden lg:flex-col lg:flex xl-flex">
+        <div className="hidden pt-6 sm:hidden md:hidden lg:flex-col lg:flex xl-flex">
           <h4 className="text-gray-800 font-semibold pb-2">Newsletter Signup</h4>
           <p className="text-gray-700 py-1">Sign up for our daily emails and we'll send you all the best <br></br> deals, tailored for you.</p> 
-          <div className="flex inline w-full">
+          <div className="flex inline ">
           <div className="shadow-xl inline bg-white focus:outline-none focus:shadow-outline border border-gray-400 rounded-none w-11/12 leading-normal">
-            <svg className="w-10 h-12 inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#808080"><path class="heroicon-ui" d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6c0-1.1.9-2 2-2zm16 3.38V6H4v1.38l8 4 8-4zm0 2.24l-7.55 3.77a1 1 0 0 1-.9 0L4 9.62V18h16V9.62z"/></svg>
-              <input className="focus:outline-none px-2 w-10/12" placeholder="Enter Email Address"></input>
+              <svg className="w-10 h-10 inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path fill="#808080" class="heroicon-ui" d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6c0-1.1.9-2 2-2zm16 3.38V6H4v1.38l8 4 8-4zm0 2.24l-7.55 3.77a1 1 0 0 1-.9 0L4 9.62V18h16V9.62z"/>
+              </svg>
+              <input className="focus:outline-none px-2 w-8/12" placeholder="Enter Email Address"></input>
             </div>
             <button className="text-white bg-signature-blue w-48 p-0 rounded-r-lg">Subscribe</button>
           </div>
           <div className="py-10"></div>
         </div>
-          {/*end of sections  */}
+        {/*end of sections  */}
       </div>
 
        <div className="footer-floor border-t border-solid border-1 border-gray-400 mt-4 p-4">
-          <div className="flex justify-center">
+          <div className="flex justify-start sm:justify-start md:justify-center lg:justify-center xl:justify-center">
             <a className="signature-blue px-2" href="google.com" >Privacy Policy</a>
             <p className="text-gray-800">&copy;2020 GrabOne Limited</p>
-            <img className="px-3" src={NZMELogo} alt="NZME logo" />
+            <div>
+              <img className="px-3" src={NZMELogo} alt="NZME logo" /> 
+            </div>
           </div>
        </div>
      </footer>

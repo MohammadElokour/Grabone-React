@@ -16,19 +16,19 @@ function App() {
     <div className="App">
       <div><Header/></div>
       <div className="sticky top-0 z-10"><Navbar/></div>
-      <div className="page">
-        <div className="">
+      <div className="page m-0">
+        <div>
           <Imagebanner/>
         </div>
-        <div className="pt-4 sm:pt-4 md:pt-6 lg:pt-10 xl:pt-10 text-center">
+        <div className="pt-4 sm:pt-4 md:pt-6 lg:pt-10 xl:pt-10">
         {cards.map((card, i) => (
           <Card key={i} title={card.title} img={card.img} institution={card.institution} area={card.area} boughtCount={card.boughtCount} price={card.price} infoText={card.infoText}/>
           ))}
         </div>
-        <div className="pb-5">
+        <div className="hidden sm:hidden md:hidden lg:block xl:block pb-5">
           <Emailbanner/>
         </div>
-        <div className="pt-4 sm:pt-4 md:pt-6 lg:pt-0 xl:pt-0 text-center">
+        <div>
         {cards.map((card, i) => (
           <Card key={i} title={card.title} img={card.img} institution={card.institution} area={card.area} boughtCount={card.boughtCount} price={card.price} infoText={card.infoText}/>
           ))}

@@ -4,7 +4,7 @@ import './Navbar.css'
 function Navbar() {
   return (
     <div className="hidden sm:hidden md-inline lg:inline xl-inline">
-      <header className="py-2 bg-white">
+      <header className="px-2 py-2 bg-white">
       <nav>
         <div className="nav-bar">
           <div>
