@@ -17,8 +17,12 @@ You will also see any lint errors in the console.
 
 ## Screenshots:
 
-![project screenshot web view](https://i.ibb.co/jWq5X9K/GO-react1.png)
+![project screenshot web view](https://i.ibb.co/RzKFwLZ/GO-react1.png)
 
-![project screenshot tablet view](https://i.ibb.co/6Y7vbmc/GO-react2.png)
+![project screenshot tablet view](https://i.ibb.co/KjThXRT/GO-react2.png)
+
+![project screenshot mobile view](https://i.ibb.co/W3kPzgJ/GO-react3.png)
 
 ![project screenshot mobile view](https://i.ibb.co/fSN4zVr/GO-react4.png)
+
+![project screenshot mobile view](https://i.ibb.co/ZJ01kfL/GO-react5.png)
